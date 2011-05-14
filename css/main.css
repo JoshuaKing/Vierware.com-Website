@@ -1,0 +1,156 @@
+/* Note: Make HTML 5 elements block-level for consistent styling */
+header, nav, section, article, footer, address {
+	display:block;
+}
+
+body {
+	color:#888;
+	margin-left: 0px;
+	margin-right: 0px;
+	/* background-color: #DDD;
+	background-image: url("../img/800px-Daptomycin_Ball_et_al.svg.png");
+	background-repeat: no-repeat;
+	background-position: bottom right; */
+	background-image: url("../img/carbonplain.png");
+	background-repeat: repeat;
+	background-size: 30%;
+	-moz-background-size: 30%;
+}
+
+header
+{
+	background-color:#F5F5F5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#D9D9D9));
+	background: -moz-linear-gradient(top,  #F5F5F5,  #D9D9D9);
+	height:110px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-family:"URW Bookman L";
+	position: relative;
+	
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 20px;
+}
+header a {
+	text-decoration: none;
+}
+
+#logo
+{
+	text-decoration: none;
+	text-align:center;
+	font-size: 40px;
+	line-height:110px;
+	vertical-align: middle;
+	float:left;
+	height: 100%;
+	width: 300px;
+	background-image: url("../img/middlepart.png");
+	background-size: 2px 110px;
+	-moz-background-size: 2px 110px;
+	color: white;
+}
+
+section {
+	background-color: white;
+	min-height: 200px;
+	margin-left: 20px;
+	margin-right: 50px;
+	background-color: white;
+	text-shadow: 2px;
+	
+	/* cross-browser curved borders */
+	/* border-radius: 30px;
+	behavior: url(border-radius.htc);
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px; */
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	-moz-border-radius-bottomleft: 30px;
+	-moz-border-radius-bottomright: 30px;
+	
+	/* cross-browser drop (box) shadow */
+	box-shadow: 5px 5px 10px rgba(0,0,0,.8);
+	-webkit-box-shadow:5px 5px 10px rgba(0,0,0,.8);
+	-moz-box-shadow:3px 3px 3px rgba(0,0,0,.8);
+}
+
+section div {
+	padding: 40px;
+}
+
+footer {
+	height: 2.0em;
+	text-align: center;
+	padding-top: 1.0em;
+	color: white;
+}
+
+section a {
+	color: #6B7C8C;
+}
+
+section a:visited {
+	color: #C19FC4;
+}
+
+mark {
+	color: #094F8B;
+	background: none;
+}
+
+.quicklinks {
+	padding: 0px;
+	font-size: 25px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+.quicklinks div {
+	vertical-align: middle;
+}
+
+.quicklinks a:visited {
+	color: white;
+}
+
+.quicklinks a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-shadow: rgba(0,0,0,0.9) 2px 2px;
+	
+	/* cross-browser gradient background */
+	background-color: #00315E;
+	background: -webkit-gradient(linear, left top, left bottom, from(#005EB5), to(#00315E));
+	background: -moz-linear-gradient(top,  #005EB5,  #00315E);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#005EB5', endColorstr='#00315E');
+	
+	/* cross-browser curved borders */
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.quicklinks a:hover {
+	/* cross-browser gradient background */
+	background-color: #005EB5;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00315E), to(#005EB5));
+	background: -moz-linear-gradient(top,  #00315E,  #005EB5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00315E', endColorstr='#005EB5');
+}
+
+.quicklink {
+	padding: 0px;
+	width: 30%;
+	padding: 1.5%;
+	float: left;
+	height: 1.5em;
+}
